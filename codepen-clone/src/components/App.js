@@ -4,12 +4,12 @@ import Editor from "./Editor";
 function App() {
   return (
     <>
-    <div classname="pane top-pane">
+    <div className="pane top-pane">
       <Editor />
       <Editor />
       <Editor />
     </div>
-    <div classname="pane">
+    <div className="pane">
     <iframe
     title="output"
     sandbox="allow-scripts"
